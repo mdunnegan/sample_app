@@ -1,5 +1,5 @@
 class StaticPagesController < ApplicationController
-  def home
+  def home #calls render by default
   end
 
   def help

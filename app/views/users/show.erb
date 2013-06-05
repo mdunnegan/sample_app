@@ -1,0 +1,13 @@
+<!-- a URI that happens ____: localhose:3000/users____-->
+
+<% provide(:title, @user.name) %> 
+<div class="row">
+  <aside class="span4">
+    <section>
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
